@@ -21,7 +21,17 @@ TCL( transation  control language )
 	savepoint;
 	set transation;
 
+```
+# create user in mysql
+```
+CREATE USER 'newuser' IDENTIFIED BY 'user_password';
+```
+# sift the user in mydql
+```
+ system mysql -u shubham -p;
+```
 
-
-
+# grant 
+```
+    >  grant all privileges on akash to shubham;
 ```
